@@ -1,0 +1,26 @@
+#ifdef __OBJC__
+
+#ifdef DEBUG
+#define NSLog(FORMAT, ...) fprintf(stderr,"%s:%d\t%s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#else
+#define NSLog(FORMAT, ...) nil
+#endif
+
+//global
+#import "AppDelegate.h"
+#import "XSKCommon.h"
+#import "XSAppConfig.h"
+#import "XSColorConfig.h"
+#import "XSEnum.h"
+#import "XSFontConfig.h"
+#import "XSCustomBaseVC.h"
+//#import "XSAccountManager.h"
+
+//Extension
+#import "UIView+Class.h"
+#import "NSArray+Class.h"
+#import "UIColor+Class.h"
+#import "NSString+Class.h"
+#import "UIImage+Class.h"
+
+#endif
