@@ -13,4 +13,19 @@
 #ifdef __OBJC__
     @import UIKit;
     @import Foundation;
+#import "AppDelegate.h"
+#import "XSKCommon.h"
+#import "XSAppConfig.h"
+#import "XSColorConfig.h"
+#import "XSEnum.h"
+#import "XSFontConfig.h"
+#import "XSCustomBaseVC.h"
+//#import "XSAccountManager.h"
+
+//Extension
+#import "UIView+Class.h"
+#import "NSArray+Class.h"
+#import "UIColor+Class.h"
+#import "NSString+Class.h"
+#import "UIImage+Class.h"
 #endif

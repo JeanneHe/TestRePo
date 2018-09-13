@@ -5,10 +5,7 @@ target 'TestPod_Example' do
 
   target 'TestPod_Tests' do
     inherit! :search_paths
-
-    pod 'Specta'
-    pod 'Expecta'
-    pod 'FBSnapshotTestCase'
-    pod 'Expecta+Snapshots'
+      pod 'SDWebImage'
+      pod 'YYKit'
   end
 end
