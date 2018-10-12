@@ -39,5 +39,5 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'SDWebImage', '~> 4.4.2'
-  s.dependency 'SPHRouter',:svn =>'http://svn.91sph.com/svn/ios/subassembly/XSRouter',:tag =>'0.2.5'
+  s.dependency 'SPHRouter', '~> 0.2.5'
 end
