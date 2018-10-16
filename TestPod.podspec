@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'XSCommunity/trunk/XSCommunity/XSCommunity_Class/**/*'
+  s.source_files = 'XSCommunity/trunk/XSCommunity/XSCommunity_Class/XSCommunity_Global/**/*'
   
   # s.resource_bundles = {
   #   'TestPod' => ['TestPod/Assets/*.png']
