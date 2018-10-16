@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestPod'
-  s.version          = '0.1.0'
+  s.version          = '2.0.0'
   s.summary          = 'TEST.'
 
 # This description is used to generate tags and improve search results.
@@ -25,12 +25,12 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jeanne' => 'kenshin1228@hotmail.com' }
-  s.source           = { :git => 'https://github.com/Jeanne/TestPod.git', :tag => s.version.to_s }
+  s.source           = { :svn => 'svn.91sph.com/svn/ios/subassembly/XSCommunity', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'TestPod/Classes/**/*'
+  s.source_files = 'XSCommunity/trunk/XSCommunity/XSCommunity_Class/**/*'
   
   # s.resource_bundles = {
   #   'TestPod' => ['TestPod/Assets/*.png']

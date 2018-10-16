@@ -7,5 +7,6 @@ target 'TestPod_Example' do
     inherit! :search_paths
       pod 'SDWebImage'
       pod 'YYKit'
+      pod 'XSCommunityLib',:svn =>'http://svn.91sph.com/svn/ios/subassembly/XSCommunity',:tag =>'2.0.0'
   end
 end

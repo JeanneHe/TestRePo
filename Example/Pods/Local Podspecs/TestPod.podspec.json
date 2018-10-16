@@ -1,7 +1,7 @@
 {
   "name": "TestPod",
   "version": "0.1.0",
-  "summary": "A short description good good  TestPod.",
+  "summary": "TEST.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Jeanne/TestPod",
   "license": {
@@ -18,5 +18,13 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TestPod/Classes/**/*"
+  "source_files": "TestPod/Classes/**/*",
+  "dependencies": {
+    "SDWebImage": [
+      "~> 4.4.2"
+    ],
+    "SPHRouter": [
+      "~> 0.2.5"
+    ]
+  }
 }
